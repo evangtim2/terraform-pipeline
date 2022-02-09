@@ -1,0 +1,9 @@
+Terraform Pipeline using Jenkins
+
+Git Workflow --> GitOps
+
+User --> GitHub --> Terraform Pipeline --> Jenkins
+
+Terraform init --> Terraform fmt --> Terraform validate --> Terraform plan --> Terraform apply(manual intervention/abort) --> Resources in AWS
+
+New Git Branch(Branch Protection) --> Pull Request --> Reviewing --> Merge --> Master
